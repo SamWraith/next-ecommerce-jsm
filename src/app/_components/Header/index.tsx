@@ -14,7 +14,7 @@ export async function Header() {
 
   try {
     header = await fetchHeader()
-  } catch (error: any) {
+  } catch (error) {
     console.log(error)
   }
 

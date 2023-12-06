@@ -106,7 +106,7 @@ export const CartPage: React.FC<{
                 </div>
                 <div className={classes.row}>
                   <p className={classes.cartTotal}>Grand Total</p>
-                  <p className={classes.cartTotal}>$0</p>
+                  <p className={classes.cartTotal}>{cartTotal.formatted}</p>
                 </div>
                 <Button
                   className={classes.checkoutButton}
